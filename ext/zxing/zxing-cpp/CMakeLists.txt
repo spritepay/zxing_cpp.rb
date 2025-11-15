@@ -2,8 +2,8 @@
 # CMake listfile to specify the build process, see:
 # http://www.cmake.org/cmake/help/documentation.html
 #
+cmake_minimum_required(VERSION 3.5)
 project(zxing)
-cmake_minimum_required(VERSION 2.8.0)
 
 set(CMAKE_LIBRARY_PATH /opt/local/lib ${CMAKE_LIBRARY_PATH})
 
